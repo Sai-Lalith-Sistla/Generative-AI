@@ -9,5 +9,6 @@ def load_env():
 
 def get_openai_api_key():
     load_env()
-    openai_api_key = os.getenv("OPENAI_API_KEY")
+    openai_api_key = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcHAiLCJleHAiOjE3OTk5OTk5OTksInN1YiI6MTY4MzE2NCwiYXVkIjoiV0VCIiwiaWF0IjoxNjk0MDc2ODUxfQ.UhC3lv30vvivEEJek2DCjaRBOxJWPj5Y_lx65QgCf8c'
+    # os.getenv("OPENAI_API_KEY")
     return openai_api_key
