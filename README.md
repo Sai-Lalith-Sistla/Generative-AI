@@ -1,28 +1,58 @@
-# AI-Agents-GenAI\
+# 🚀 Zero to Gen AI
 
-Contents
+A curated journey from foundational GenAI concepts to hands-on implementation of advanced agentic design patterns.
 
-Gen AI Basics
+This repository is a personal learning archive and a practical resource for understanding and experimenting with **Generative AI** concepts, including **semantic search**, **transformers**, and **agentic workflows** using tools like BERT, GPT-2, and AutoGen.
 
-- Chunking, Embeddings & Semantic Search on Wikipedia Pages
-- Semantic Search Example with Job postings Data
-- Vector Store Notes
+---
 
+## 📚 Contents
 
-Transformer Models
+### 🧠 Gen AI Basics
 
-- Fine-Tune BERT for Sentiment Analysis
-    This project fine-tunes a BERT model (Bidirectional Encoder Representations from Transformers) on a sentiment classification task using the IMDb dataset.
+Explore how core GenAI components work behind the scenes.
 
-Goal
+- 🔍 **Chunking, Embeddings & Semantic Search on Wikipedia Pages**  
+  Learn how to chunk large text, generate embeddings, and run semantic search using vector databases.
 
-- Text Generation with GPT-2
-    This project demonstrates how to use GPT-2, a large pretrained Transformer-based language model, to generate text from a prompt. It uses greedy or beam decoding to predict one token at a time.
+- 💼 **Semantic Search with Job Postings**  
+  A hands-on use case of semantic retrieval applied to job descriptions and resume relevance.
 
+- 🧾 **Vector Store Notes**  
+  Notes and implementation insights on storing and retrieving text embeddings efficiently.
 
-AI Agentic Design Patterns with AutoGen
+---
 
-- Multi Agent collaboration
-- Reflection
-- Tool Use
-- Code generation
+### 🤖 Transformer Models
+
+Deep dive into modern NLP with fine-tuned and pre-trained transformer models.
+
+- 📈 **Fine-Tune BERT for Sentiment Analysis**  
+  Fine-tuning BERT on IMDb movie reviews for binary sentiment classification.
+
+- ✍️ **Text Generation with GPT-2**  
+  Generate human-like text using GPT-2 with decoding strategies like greedy search and beam search.
+
+- 🧠 **Natural Language Inference (NLI)**  
+  Leverage zero-shot classification using models like `facebook/bart-large-mnli` to infer textual entailment for multiple labels.
+
+---
+
+### 🧩 AI Agentic Design Patterns (AutoGen)
+
+Experimenting with multi-agent LLM-based workflows using **Microsoft AutoGen**.
+
+- 🧑‍🤝‍🧑 **Multi-Agent Collaboration**  
+  Build coordinated LLM agents that communicate and divide tasks effectively.
+
+- 🔁 **Reflection**  
+  Implement self-evaluation and iterative improvement in agent output.
+
+- 🧰 **Tool Use**  
+  Extend agent capabilities using external tools and APIs.
+
+- 💻 **Code Generation**  
+  AutoGen agents that can generate, critique, and refine code snippets in a feedback loop.
+
+---
+
