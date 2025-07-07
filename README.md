@@ -36,6 +36,10 @@ Deep dive into modern NLP with fine-tuned and pre-trained transformer models.
 - 🧠 **Natural Language Inference (NLI)**  
   Leverage zero-shot classification using models like `facebook/bart-large-mnli` to infer textual entailment for multiple labels.
 
+- 🧠 **Semantic Search with Sentence Transformers**  
+  This project uses **Sentence-BERT (SBERT)** to build a semantic search system by encoding text into dense vector embeddings. It retrieves the most relevant results for a user query using cosine similarity.
+
+
 ---
 
 ### 🧩 AI Agentic Design Patterns (AutoGen)
