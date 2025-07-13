@@ -23,21 +23,89 @@ Explore how core GenAI components work behind the scenes.
 
 ---
 
-### 🤖 Transformer Models
+### 🤖 Transformer Models  
+Deep dive into modern NLP using fine-tuned and pre-trained transformer models for various downstream tasks.
 
-Deep dive into modern NLP with fine-tuned and pre-trained transformer models.
+---
 
-- 📈 **Fine-Tune BERT for Sentiment Analysis**  
+####  📊 Sentiment Analysis  
+- **Fine-Tune BERT for Sentiment Analysis**  
   Fine-tuning BERT on IMDb movie reviews for binary sentiment classification.
 
-- ✍️ **Text Generation with GPT-2**  
-  Generate human-like text using GPT-2 with decoding strategies like greedy search and beam search.
+- **Sentiment Analysis with RoBERTa**  
+  Leverage a pre-trained RoBERTa model to classify text sentiment with improved contextual understanding.
 
-- 🧠 **Natural Language Inference (NLI)**  
-  Leverage zero-shot classification using models like `facebook/bart-large-mnli` to infer textual entailment for multiple labels.
+- **Sentiment Analysis with Zero-Shot Classification**  
+  Classify sentiments without task-specific training using zero-shot text classification with models like `facebook/bart-large-mnli`.
 
-- 🧠 **Semantic Search with Sentence Transformers**  
-  This project uses **Sentence-BERT (SBERT)** to build a semantic search system by encoding text into dense vector embeddings. It retrieves the most relevant results for a user query using cosine similarity.
+---
+
+####  📚 Natural Language Inference (NLI)  
+- **Zero-Shot Text Inference**  
+  Perform zero-shot inference to determine textual entailment across multiple labels using `facebook/bart-large-mnli`.
+
+---
+
+####  🧠 Semantic Understanding  
+- **Semantic Search with Sentence Transformers**  
+  Build a semantic search system using Sentence-BERT (SBERT) by encoding text into dense embeddings and retrieving results with cosine similarity.
+
+- **Text Clustering using Sentence Embeddings**  
+  Cluster semantically similar texts using SBERT embeddings and unsupervised clustering algorithms like KMeans or HDBSCAN.
+
+---
+
+####  ❓ Question Answering  
+- **Question Answering with BERT**  
+  Extract precise answers from context passages using a fine-tuned BERT model for extractive QA tasks.
+
+---
+
+####  ✍️ Text Generation  
+- **Text Generation with GPT-2**  
+  Generate human-like text using GPT-2 and decoding strategies like greedy search, beam search, and top-k/top-p sampling.
+
+---
+
+### 🧪 LangChain Experiments  
+Explore the power of **LangChain** through hands-on demonstrations covering conversational agents, image generation, memory, and retrieval-augmented generation (RAG).
+
+---
+
+#### 📘 00 Series – Foundations  
+- **00a – OpenAI Chat with LangChain**  
+  Create a basic chatbot interface using LangChain and OpenAI models.
+
+- **00b – Google Search Integration**  
+  Use LangChain to incorporate Google search for real-time query responses.
+
+- **00c – Image Generation with DALL·E**  
+  Generate images from prompts using DALL·E via LangChain integration.
+
+---
+
+#### 🧠 LLM & Memory  
+- **01 – OpenAI Chat vs Generic LLMs**  
+  Compare OpenAI models with other LLMs under the LangChain framework.
+
+- **07 – LangChain Memory**  
+  Demonstrate conversation continuity using different memory modules (e.g., `ConversationBufferMemory`, `ConversationSummaryMemory`).
+
+---
+
+#### 📚 RAG Workflow  
+- **09 – Retrieval-Augmented Generation (RAG)**  
+  End-to-end pipeline demonstrating:
+  1. Document loading  
+  2. Embedding generation  
+  3. Vector storage using FAISS  
+  4. Semantic retrieval and answer generation  
+
+  > This notebook showcases how LangChain enables intelligent document-based Q&A using your own data.
+
+---
+
+> 💡 Each notebook is self-contained and annotated for easy understanding. Ideal for experimentation, learning, or extending into production-grade LLM apps.
 
 
 ---
