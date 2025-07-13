@@ -26,7 +26,7 @@ Explore how core GenAI components work behind the scenes.
 ### 🤖 Transformer Models  
 Deep dive into modern NLP using fine-tuned and pre-trained transformer models for various downstream tasks.
 
----
+
 
 ####  📊 Sentiment Analysis  
 - **Fine-Tune BERT for Sentiment Analysis**  
@@ -38,13 +38,13 @@ Deep dive into modern NLP using fine-tuned and pre-trained transformer models fo
 - **Sentiment Analysis with Zero-Shot Classification**  
   Classify sentiments without task-specific training using zero-shot text classification with models like `facebook/bart-large-mnli`.
 
----
+
 
 ####  📚 Natural Language Inference (NLI)  
 - **Zero-Shot Text Inference**  
   Perform zero-shot inference to determine textual entailment across multiple labels using `facebook/bart-large-mnli`.
 
----
+
 
 ####  🧠 Semantic Understanding  
 - **Semantic Search with Sentence Transformers**  
@@ -53,13 +53,13 @@ Deep dive into modern NLP using fine-tuned and pre-trained transformer models fo
 - **Text Clustering using Sentence Embeddings**  
   Cluster semantically similar texts using SBERT embeddings and unsupervised clustering algorithms like KMeans or HDBSCAN.
 
----
+
 
 ####  ❓ Question Answering  
 - **Question Answering with BERT**  
   Extract precise answers from context passages using a fine-tuned BERT model for extractive QA tasks.
 
----
+
 
 ####  ✍️ Text Generation  
 - **Text Generation with GPT-2**  
