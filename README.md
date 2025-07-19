@@ -6,6 +6,11 @@ This repository is a personal learning archive and a practical resource for unde
 
 ---
 
+> 💡 Each notebook is self-contained and annotated for easy understanding. Ideal for experimentation, learning, or extending into production-grade LLM apps.
+
+---
+
+
 ## 📚 Contents
 
 ### 🧠 Gen AI Basics
@@ -20,6 +25,10 @@ Explore how core GenAI components work behind the scenes.
 
 - 🧾 **Vector Store Notes**  
   Notes and implementation insights on storing and retrieving text embeddings efficiently.
+
+- 📊 **PPL Metric in LLM Evaluation**  
+  Understand Perplexity (PPL) as an intrinsic metric for evaluating language models.  
+  A lower PPL indicates better fluency and confidence in token prediction.  
 
 ---
 
@@ -72,14 +81,14 @@ Explore the power of **LangChain** through hands-on demonstrations covering conv
 
 ---
 
-#### 📘 00 Series – Foundations  
-- **00a – OpenAI Chat with LangChain**  
+#### 📘 Foundations  
+- **OpenAI Chat with LangChain**  
   Create a basic chatbot interface using LangChain and OpenAI models.
 
-- **00b – Google Search Integration**  
+- **Google Search Integration**  
   Use LangChain to incorporate Google search for real-time query responses.
 
-- **00c – Image Generation with DALL·E**  
+- **Image Generation with DALL·E**  
   Generate images from prompts using DALL·E via LangChain integration.
 
 ---
@@ -102,10 +111,6 @@ Explore the power of **LangChain** through hands-on demonstrations covering conv
   4. Semantic retrieval and answer generation  
 
   > This notebook showcases how LangChain enables intelligent document-based Q&A using your own data.
-
----
-
-> 💡 Each notebook is self-contained and annotated for easy understanding. Ideal for experimentation, learning, or extending into production-grade LLM apps.
 
 
 ---
